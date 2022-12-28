@@ -7,7 +7,7 @@ import { Produto } from "./produto.model";
 const produtos = [
     { titulo: 'tapete', preco:59.99 },
     { titulo: 'Outro Livrinho', preco: 7.99 }
-]
+];
 //const p1 = new Produto('Livrinho', 9.99);
 
 /* const produtosCarregados = produtos.map(prod => {

@@ -1,5 +1,10 @@
+import { IsNotEmpty, IsNumber, IsPositive } from 'class-validator';
+
 export class Produto {
+    @IsNotEmpty()
     titulo: string;
+    @IsNumber()
+    @IsPositive()
     preco: number;
 
     constructor(t: string, p: number) {
